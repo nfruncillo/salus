@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+crossorigin="anonymous">
+
+    <style>
+      body{background-color:cadetblue;}
+    </style>
+
+
+    <title>Registrazione</title>
+  </head>
+    <body>
+        <p class="lead">Registrazione Salus Web - Categoria Pazienti</p>
+        
+        <div id="container">
+            <form action="pazienti.php" method="Post" Required>
+                Codice Paziente: <br> <input type="text" name="IDPaziente" 
+Required>
+                <br><br>
+                Nome: <br> <input type="text" name="nome" Required>
+                <br><br>
+                Cogno: <br> <input type="text" name="cognome" Required>
+                <br><br>
+                Età: <br> <input type="number" name="eta" Required>
+                <br><br>
+                Data Nascita: <br> <input type="date" name="DataNascita" 
+Required>
+                <br><br>
+                <input type="submit"  class="btn btn-primary" 
+name="Registra_Dati" value="REGISTRATI DATI PAZIENTE">
+                  <br><br>
+                <a href="./prova_login.html" class="btn btn-primary">Torna 
+Alla Pagina Iniziale</a>
+            </form>
+        </div>
+    </body>
+</html>
